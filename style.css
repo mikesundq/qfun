@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2a5ea;
+}
+
+header {
+   
+    background-color: #f5dff3;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.header-a {
+    background-color: #f5dff3;
+    font-family: 'Concert One', cursive;
+    height: 100px;
+}
+
+header a img {
+    margin: 2px;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+header a p {
+    padding-top: 35px;
+}
+
+.header-a:hover {
+    background-color: #ffb5ff;
+}
+
+#left-a {
+    background-color: #f2a5ea;
+}
+
+header nav li{
+    
+    list-style: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    font-size: 22px;
+    /* padding: 12px 4px; */
+    border-radius: 7px 7px 0px 0px;
+    
+}
+
+footer {
+    background-color: #f5dff3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 5em;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+footer a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 12px 5px;
+    font-size: 24px;
+    color: #a3589c;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+#main-info {
+    background-color: #a3589c;
+    margin-top: 4em;
+    text-align: center;
+    border-radius: 4px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#about-us {
+    background-color: #a3589c;
+    margin-top: 4em;
+    text-align: center;
+    border-radius: 4px;
+    display: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#challenges {
+    background-color: #a3589c;
+    margin-top: 4em;
+    text-align: center;
+    border-radius: 4px;
+    display: none;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#challenges li {
+    list-style: none;
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+img{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.info p {
+    padding: 2px;
+}
+
+@media only screen and (min-width: 600px) {
+  
+    .info{
+        margin: 3em;
+    }
+
+    .header-a {
+        width: auto;
+    }
+
+    header nav li a {
+        font-size: 25px;
+    }
+
+    header a p {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
