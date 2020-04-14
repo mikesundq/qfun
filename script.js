@@ -6,14 +6,8 @@ var EventHandler = (function(){
         $("#center-a").click(onClickCenter);
         $("#left-a").click(onClickLeft);
         $("#right-a").click(onClickRight);
-        //$(".header-a").on("mouseover", onMouseOver())
     }
     
-
-    // function onMouseOver(){
-    //     var h = $(".header-a").css("background-color", "#ffb5ff");
-    // }
-
     function onClickCenter(){
 
         var h = $(".header-a").css("background-color", "#f5dff3");
